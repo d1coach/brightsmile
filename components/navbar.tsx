@@ -18,29 +18,45 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-8">
           <Link
-            className="text-zinc-600 hover:text-zinc-900 transition-colors font-medium"
+            className="text-on-surface-variant hover:text-on-surface transition-colors font-medium"
             href="/"
           >
             Home
           </Link>
           <Link
-            className="text-zinc-600 hover:text-zinc-900 transition-colors font-medium"
-            href="#"
+            className="text-on-surface-variant hover:text-on-surface transition-colors font-medium"
+            href="/#services"
           >
             Services
           </Link>
           <Link
-            className="text-zinc-600 hover:text-zinc-900 transition-colors font-medium"
-            href="#"
+            className="text-on-surface-variant hover:text-on-surface transition-colors font-medium"
+            href="/#clinics"
           >
-            Team
+            Our Clinics
+          </Link>
+          <Link
+            className="text-on-surface-variant hover:text-on-surface transition-colors font-medium"
+            href="/#about"
+          >
+            About
           </Link>
         </div>
 
         <div className="flex items-center gap-4">
           <Link
+            href="tel:02085698081"
+            className="hidden lg:flex items-center gap-1.5 text-primary font-semibold text-sm hover:underline"
+          >
+            <span className="material-symbols-outlined text-lg">call</span>
+            020 8569 8081
+          </Link>
+          <Link
             href="/book"
-            className={buttonVariants({ className: "bg-gradient-primary text-on-primary px-6 py-2.5 rounded-full font-bold text-sm tracking-tight hover:scale-95 transition-transform duration-200 border-none" })}
+            className={buttonVariants({
+              className:
+                "bg-gradient-primary text-on-primary px-6 py-2.5 rounded-full font-bold text-sm tracking-tight hover:scale-95 transition-transform duration-200 border-none",
+            })}
           >
             Book Appointment
           </Link>

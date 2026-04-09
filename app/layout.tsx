@@ -20,9 +20,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Bright Smile Dental Care",
+  title: "BrightSmile Dental Care - NHS & Private Dentistry in Surrey & London",
   description:
-    "Redefining modern dentistry with a focus on patient comfort, radiant aesthetics, and long-term health.",
+    "Three modern dental clinics in Isleworth, Epsom, and Tadworth. Proudly NHS-friendly. Same-week appointments, fear-free care, and transparent pricing. New patients welcome.",
 };
 
 export default function RootLayout({

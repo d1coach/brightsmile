@@ -136,3 +136,6 @@ Safari 16.4+, Chrome 111+, Firefox 128+.
 ## Brand & Marketing Copy
 
 **Before writing any marketing copy, headlines, taglines, or patient-facing text**, read the brand positioning manifesto at `docs/manifesto.md`. It defines the clinic's values, tone, and commitments (NHS-friendly, fear-free, transparent pricing, no private upsells). All copy must align with these principles.
+
+- **Language**: Always use British English (e.g. "colour", "specialise", "centre", "organised").
+- **Punctuation**: Never use em dashes (—). Use hyphens (-) instead.
